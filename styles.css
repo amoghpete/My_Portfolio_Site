@@ -2,3 +2,7 @@
     min-height: 99vh;
     /* display: none; */
 }
+
+section{
+    display: none;
+}
