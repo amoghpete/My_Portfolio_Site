@@ -1,8 +1,79 @@
-#temprory{
-    min-height: 99vh;
-    /* display: none; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+
+    background-image: url("Assets/Images/Backdrop.png");
+    background-color: #121212;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 8%;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
 
-section{
-    display: none;
+h1,h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2% 0;
+}
+
+h1{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+h3{
+    padding-top: 2%;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+a:link {
+  text-decoration: underline;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: inherit;
+}
+
+p{
+    color: inherit;
+    font-size: 0.7rem;
+}
+.DisplayWrap{
+    display: flex;
+}
+#Display{
+    width: 45%;
+    padding: 2%;
+    margin: auto;
+    border-radius: 50%; 
+    user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
+.contact img{
+    width: 14%;
+    padding: 0.8%;
+    border-radius: 50%; 
+}
+
+@media screen and (min-width: 380px) {
+  body {
+    width: 380px;
+    margin: auto;
+    padding: 3%;
+  }
+
+  p{
+    font-size: 0.8rem;
+}
 }
